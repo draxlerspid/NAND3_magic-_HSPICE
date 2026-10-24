@@ -1,0 +1,64 @@
+magic
+tech c35b4
+timestamp 1792853374
+<< error_s >>
+rect 4 242 37 275
+rect 152 242 185 275
+rect 300 242 333 275
+<< polysilicon >>
+rect 24 238 31 290
+rect 51 238 58 290
+rect 78 238 85 290
+rect 138 267 145 290
+rect 172 267 179 290
+rect 199 288 206 290
+rect 226 288 233 290
+rect 138 238 145 251
+rect 172 238 179 251
+rect 199 238 206 272
+rect 226 238 233 272
+rect 286 238 293 290
+rect 320 267 327 290
+rect 347 287 354 290
+rect 374 288 381 290
+rect 320 238 327 251
+rect 347 238 354 271
+rect 374 238 381 272
+rect 434 238 441 290
+<< polycontact >>
+rect 195 272 211 288
+rect 224 272 240 288
+rect 135 251 151 267
+rect 169 251 185 267
+rect 342 271 358 287
+rect 370 272 386 288
+rect 317 251 333 267
+<< metal1 >>
+rect 211 276 224 286
+rect 240 276 342 286
+rect 358 276 370 286
+rect 386 277 463 287
+rect 151 253 169 263
+rect 185 253 317 263
+rect 453 235 463 277
+rect 444 225 463 235
+use nand3  nand3_0
+timestamp 1792853374
+transform 1 0 0 0 1 5
+box 0 0 148 270
+use nand3  nand3_1
+timestamp 1792853374
+transform 1 0 148 0 1 5
+box 0 0 148 270
+use nand3  nand3_2
+timestamp 1792853374
+transform 1 0 296 0 1 5
+box 0 0 148 270
+<< labels >>
+rlabel polysilicon 24 290 31 290 5 A
+rlabel polysilicon 51 290 58 290 5 B
+rlabel polysilicon 78 290 85 290 5 C
+rlabel polysilicon 138 290 145 290 5 Y
+rlabel polysilicon 286 290 293 290 5 n1
+rlabel polysilicon 434 290 441 290 5 n2
+<< end >>

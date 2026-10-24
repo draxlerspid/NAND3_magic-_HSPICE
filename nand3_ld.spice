@@ -1,0 +1,31 @@
+* HSPICE file created from nand3_ld.ext - technology: c35b4
+
+.option scale=0.05u
+
+M1000 Vdd Y n2 Vdd modp w=68 l=7
+M1001 n2 Vdd Vdd Vdd modp w=68 l=7
+M1002 Vdd Vdd n2 Vdd modp w=68 l=7
+M1003 x0/active_31_31 Y n2 GND modn w=50 l=7
+M1004 x0/active_58_31 Vdd x0/active_31_31 GND modn w=50 l=7
+M1005 GND Vdd x0/active_58_31 GND modn w=50 l=7
+M1006 Vdd Y n1 Vdd modp w=68 l=7
+M1007 n1 Vdd Vdd Vdd modp w=68 l=7
+M1008 Vdd Vdd n1 Vdd modp w=68 l=7
+M1009 x1/active_31_31 Y n1 GND modn w=50 l=7
+M1010 x1/active_58_31 Vdd x1/active_31_31 GND modn w=50 l=7
+M1011 GND Vdd x1/active_58_31 GND modn w=50 l=7
+M1012 Vdd A Y Vdd modp w=68 l=7
+M1013 Y B Vdd Vdd modp w=68 l=7
+M1014 Vdd C Y Vdd modp w=68 l=7
+M1015 x2/active_31_31 A Y GND modn w=50 l=7
+M1016 x2/active_58_31 B x2/active_31_31 GND modn w=50 l=7
+M1017 GND C x2/active_58_31 GND modn w=50 l=7
+C0 n1 0 3.99fF
+C1 n2 0 4.49fF
+C2 Y 0 6.44fF
+C3 Vdd 0 6.14fF
+
+** hspice subcircuit dictionary
+* x0	nand3_2
+* x1	nand3_1
+* x2	nand3_0
